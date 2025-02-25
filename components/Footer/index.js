@@ -8,7 +8,7 @@ export default function Footer() {
     <>
       <footer
         id="contact"
-        className="footer-sec py-8 md:py-24 px-6 md:px-0 2xl:h-screen bg-[url('/img/footer-bg.png')] relative"
+        className="footer-sec py-8 md:py-24 px-6 md:px-0   bg-[url('/img/footer-bg.png')] relative"
       >
         <div className="ft-shape hidden xl:block">
           <svg
@@ -23,10 +23,10 @@ export default function Footer() {
             />
           </svg>
         </div>
-        <div className="container mx-auto max-w-screen-xl md:px-14">
+        <div className="container mx-auto max-w-screen-xl md:px-14 2xl:px-0">
           <div className="border-2 border-black md:grid md:grid-cols-2 ">
-            <div className="newsl py-8 px-12 ">
-              <h1 className="text-black text-[40px] md:text-[3.385vw] font-[600] uppercase line leading-[43px] md:leading-[3.49vw]">
+            <div className="newsl py-8 px-12 bg-[#B1FF01]">
+              <h1 className="text-black text-[40px] md:text-[3.385vw] 2xl:text-[2.49vw] font-[600] uppercase line leading-[43px] md:leading-[3.49vw] 2xl:leading-[2.49vw]">
                 Newsletter
                 <br />
                 stay in touch
@@ -47,8 +47,8 @@ export default function Footer() {
                 </div>
               </form>
             </div>
-            <div className="newsr  py-8 px-12 space-y-6 border-t-2 md:border-l-2 md:border-t-0 border-black">
-              <h1 className="text-[40px] md:text-[3.385vw] font-[600] uppercase line leading-[43px] md:leading-[3.49vw]">
+            <div className="newsr  py-8 px-12 space-y-6 border-t-2 md:border-l-2 md:border-t-0 border-black bg-[#B1FF01]">
+            <h1 className="text-black text-[40px] md:text-[3.385vw] 2xl:text-[2.49vw] font-[600] uppercase line leading-[43px] md:leading-[3.49vw] 2xl:leading-[2.49vw]">
                 Lorem ipsum
                 <br />
                 dolor sit amet
@@ -72,7 +72,7 @@ export default function Footer() {
                 </Link>
               </div>
               <div className="ft-link space-y-2 md:space-y-8">
-                <h3 className="text-[25px] md:text-[3.229vw]  text-black font-[600] uppercase tall">
+                <h3 className="text-[25px] md:text-[3.229vw]  2xl:text-[2.229vw]    text-black font-[600] uppercase tall">
                   Quick link
                 </h3>
                 <div className="flex gap-6 md:gap-24">
@@ -101,7 +101,7 @@ export default function Footer() {
                 </div>
               </div>
               <div className="ft-link space-y-2 md:space-y-8">
-                <h3 className="text-[25px] md:text-[3.229vw] text-black font-[600] uppercase tall">
+                <h3 className="text-[25px] md:text-[3.229vw]  2xl:text-[2.229vw] text-black font-[600] uppercase tall">
                   Useful link
                 </h3>
                 <ul className="ft-lin SMN_effect-15">
@@ -117,7 +117,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="ft-link space-y-2 md:space-y-8">
-                <h3 className="text-[25px] md:text-[3.229vw] text-black font-[600] uppercase tall">
+                <h3 className="text-[25px] md:text-[3.229vw]  2xl:text-[2.229vw] text-black font-[600] uppercase tall">
                   Contact
                 </h3>
                 <ul className="ft-lin SMN_effect-15">

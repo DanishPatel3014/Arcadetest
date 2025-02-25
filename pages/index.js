@@ -1,6 +1,7 @@
 import Blogs from "@/components/Blogs";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import HeaderRes from "@/components/Header/HeaderRes";
 import MainBanner from "@/components/MainBanner";
 import Marquee from "@/components/marquee";
 import Team from "@/components/Team";
@@ -12,6 +13,7 @@ export default function Home() {
   return (
     <>
       <Header />
+      <HeaderRes/>
       <div id="home">
         <MainBanner />
         <section className="sec-two h-screen bg-[url('/img/secbg.png')] py-12 flex items-center justify-center bg-fixed bg-center relative">
